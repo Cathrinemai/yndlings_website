@@ -23,9 +23,7 @@
          transition: color 0.3s ease;
      }
 
-     a:hover {
-         color: darkgray;
-     }
+
 
      #menuToggl {
          display: block;
@@ -99,12 +97,14 @@
          transform: translate(-100%, 0);
 
          transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+         z-index: 9999;
      }
 
      #menu li {
          padding: 5px 10px;
          font-size: 20px;
          font-family: 'Inconsolata';
+
      }
 
 
@@ -209,19 +209,85 @@
  }
 
  @media screen and (min-width:628px) {
+     .menu-container {
+         display: grid;
 
-     nav {
-         text-align: center;
-         outline-style: double;
-         outline-color: #fff;
-         z-index: 999;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: repeat(auto, 1fr);
+         grid-template-areas: "logo title";
+     }
+
+     #logo {}
+
+     #logo img {
+         width: 70%;
+         grid-area: logo;
 
      }
-     nav a {
-         font-family: 'Lobster';
-         font-size: 0.8rem;
-         color: #EEEEEE;
 
+     #explainer {}
+
+     #explainer img {
+         width: 70%;
+         grid-area: title;
+
+     }
+
+
+     #menuToggl input {
+         display: block;
+         width: 40px;
+         height: 32px;
+         position: absolute;
+         top: -7px;
+         left: -5px;
+         cursor: pointer;
+         opacity: 0;
+         z-index: 2;
+         /*    -webkit-touch-callout: none;*/
+     }
+
+
+     header {
+
+         list-style-type: none;
+     }
+
+     nav a {
+         text-decoration: none;
+         list-style-type: none;
+     }
+
+     /** FOOTER **/
+     footer {
+         text-align: center;
+     }
+     footer img {
+         width: 80%;
+
+     }
+
+     #insta {
+         grid-area: insta;
+     }
+
+     #youtube {
+         grid-area: you;
+     }
+
+     #face {
+         grid-area: face;
+     }
+
+     footer button {
+         text-decoration: none;
+         border: none;
+         width: 15%;
+
+
+     }
+     #menuToggl {
+         overflow: hidden;
      }
  }
 

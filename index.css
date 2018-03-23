@@ -203,6 +203,23 @@
          list-style-type: none;
      }
 
+
+     nav {
+         text-align: center;
+         background-color: #F2F2F2;
+         outline-style: double;
+
+     }
+     nav a {
+         color: #052951;
+
+
+     }
+     nav button {
+         overflow: hidden;
+         text-decoration: none;
+     }
+
      /** FOOTER **/
      footer {
          text-align: center;
@@ -231,9 +248,7 @@
 
 
      }
-     #menuToggl {
-         overflow: hidden;
-     }
+
  }
 
 

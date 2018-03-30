@@ -1,3 +1,7 @@
+nav .menu a {
+    font-family: 'Open Sans', sans-serif;
+}
+
 p {
     font-family: 'Open Sans', sans-serif;
     color: #052951;
@@ -12,8 +16,6 @@ h3 {
 
 #info_tekst {
     text-align: center;
-    background-color: #F2F2F2;
-
 }
 
 #info_tekst span {
@@ -112,13 +114,6 @@ h3 {
         background-color: #E10E49;
     }
 
-    /*
-     a {
-         text-decoration: none;
-         color: #052951;
-         transition: color 0.3s ease;
-     }
-*/
     nav {
         background-color: #D5EDFA;
         height: 8vw;
@@ -167,10 +162,6 @@ h3 {
     #info button {
         background-color: #E10E49;
         border-radius: 7px;
-    }
-    #info {
-        background-color: #F2F2F2;
-
     }
 
     #cykel img {
@@ -239,7 +230,6 @@ h3 {
 @media screen and (min-width:628px) {
     .menu-container {
         display: grid;
-
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(auto, 1fr);
         grid-template-areas: "logo title";
@@ -295,7 +285,6 @@ h3 {
     }
     footer img {
         width: 80%;
-
     }
 
     #insta {

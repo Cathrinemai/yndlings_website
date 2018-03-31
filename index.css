@@ -115,12 +115,18 @@ h3 {
     }
 
     nav {
-        background-color: #D5EDFA;
-        height: 8vw;
-        border-radius: 2px;
+
+
+
+        text-align: center;
+        text-decoration: none;
     }
 
-
+    nav button {
+        text-decoration: none;
+        font-family: 'Bebas Neue';
+        font-size: 1.2rem;
+    }
     #menu {
         text-align: center;
 
@@ -128,13 +134,11 @@ h3 {
 
 
     nav a {
-        border-radius: 2px;
+
         font-family: 'Bebas Neue';
-        font-size: 1.2rem;
         text-decoration: none;
         color: #052951;
-        position: relative;
-        top: 10px;
+
 
 
 
@@ -275,7 +279,7 @@ h3 {
 
     }
     nav button {
-        overflow: hidden;
+
         text-decoration: none;
     }
 

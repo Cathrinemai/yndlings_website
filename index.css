@@ -271,10 +271,12 @@ h3 {
         text-align: center;
         background-color: #F2F2F2;
         outline-style: double;
+        color: blue;
 
     }
     nav a {
         color: #052951;
+
 
 
     }

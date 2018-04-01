@@ -46,6 +46,9 @@ h3 {
 
 @media screen and (max-width:627px) {
 
+    body {
+        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+    }
     #info {
         display: grid;
         grid-gap: 22px;
@@ -114,36 +117,7 @@ h3 {
         background-color: #E10E49;
     }
 
-    nav {
 
-
-
-        text-align: center;
-        text-decoration: none;
-    }
-
-    nav button {
-        text-decoration: none;
-        font-family: 'Bebas Neue';
-        font-size: 1.2rem;
-    }
-    #menu {
-        text-align: center;
-
-    }
-
-
-    nav a {
-
-        font-family: 'Bebas Neue';
-        text-decoration: none;
-        color: #052951;
-
-
-
-
-
-    }
     /** SLUT MENU **/
     #logo {
 
@@ -152,7 +126,7 @@ h3 {
 
     #logo img {
 
-        width: 100%;
+        width: 80%;
     }
 
     #explainer {
@@ -238,12 +212,16 @@ h3 {
         grid-template-rows: repeat(auto, 1fr);
         grid-template-areas: "logo title";
     }
-
+    body {
+        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+    }
     #logo {}
 
     #logo img {
-        width: 70%;
+        width: 20%;
         grid-area: logo;
+        position: relative;
+        top: -6vw;
 
     }
 
@@ -253,6 +231,11 @@ h3 {
         width: 70%;
         grid-area: title;
 
+    }
+    #info_tekst {
+        width: 600px;
+
+        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
 
 
@@ -266,22 +249,20 @@ h3 {
         list-style-type: none;
     }
 
-
-    nav {
-        text-align: center;
-        background-color: #F2F2F2;
-        outline-style: double;
-        color: blue;
-
-    }
     nav a {
         color: #052951;
-
-
+        font-family: 'Open Sans', sans-serif;
 
     }
-    nav button {
+    nav {
+        text-align: center;
+        text-decoration: none;
+        word-spacing: 10px;
+    }
 
+
+    nav button {
+        overflow: hidden;
         text-decoration: none;
     }
 

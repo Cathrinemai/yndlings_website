@@ -241,12 +241,12 @@ h3 {
     #explainer {}
 
     #explainer img {
-        width: 70%;
+        width: 100%;
         grid-area: title;
 
     }
     #info_tekst {
-        width: 600px;
+
 
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
@@ -279,12 +279,49 @@ h3 {
         text-decoration: none;
     }
 
+    #basis {
+        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+    }
+    #cykel img {
+        width: 16%;
+    }
+    #cykel {
+        text-align: center;
+
+    }
+
+    #mobil img {
+        width: 7%;
+    }
+
+    #mobil {
+        text-align: center;
+    }
+
+    #tablet img {
+        width: 10%;
+    }
+
+    #tablet {
+        text-align: center;
+    }
+
+    #computer img {
+        width: 17%;
+    }
+
+    #computer {
+        text-align: center;
+    }
+
+
     /** FOOTER **/
     footer {
         text-align: center;
+        margin-top: 100px;
     }
     footer img {
-        width: 80%;
+        width: 50%;
     }
 
     #insta {

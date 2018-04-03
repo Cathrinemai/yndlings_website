@@ -44,7 +44,91 @@ h3 {
     grid-template-areas: "title title" "explainer explainer";
 }
 
+@media screen and (max-width:470px) {
+    nav img {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        top: 1.3vw;
+
+    }
+    nav a {
+        text-decoration: none;
+        color: #052951;
+        text-align: center;
+
+
+
+    }
+    nav {
+        word-spacing: 30px;
+        background-color: black;
+        height: 40px;
+        cursor: pointer;
+        text-align: center;
+    }
+    nav a:hover {
+        background-color: #00B9EA;
+        border: 2px solid #00B9EA;
+        color: white;
+        opacity: 0.6;
+    }
+}
+
 @media screen and (max-width:627px) {
+
+
+
+
+
+
+
+
+    .button {
+        background-color: #4CAF50;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        -webkit-transition-duration: 0.4s;
+        /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+    nav img {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        top: 1.3vw;
+
+    }
+    nav a {
+        text-decoration: none;
+        color: #052951;
+        text-align: center;
+
+
+
+    }
+    nav {
+        word-spacing: 30px;
+        background-color: white;
+        height: 40px;
+        cursor: pointer;
+        text-align: center;
+    }
+    nav a:hover {
+        background-color: #00B9EA;
+        border: 2px solid #00B9EA;
+        color: white;
+        opacity: 0.6;
+    }
+
 
     body {
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
@@ -66,56 +150,8 @@ h3 {
         grid-template-areas: "title title title" "explainer explainer explainer" "info info info" "insta you face";
         margin: 0 auto;
     }
-    .dropbtn {
-        background-color: #E10E49;
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-    }
 
-    /* The container <div> - needed to position the dropdown content */
-    .dropdown {
-        position: relative;
-        display: inline-block;
-        font-family: 'Open Sans', sans-serif;
 
-    }
-
-    /* Dropdown Content (Hidden by Default) */
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #F2F2F2;
-        min-width: 100px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-
-    /* Links inside the dropdown */
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-
-    /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {
-
-        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 200%);
-    }
-
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-
-    /* Change the background color of the dropdown button when the dropdown content is shown */
-    .dropdown:hover .dropbtn {
-        background-color: #E10E49;
-    }
 
 
     /** SLUT MENU **/
@@ -295,6 +331,8 @@ h3 {
     #cykel {
         text-align: center;
 
+        position: relative;
+        left: -25vw;
     }
 
     #mobil img {
@@ -353,6 +391,6 @@ h3 {
 
 }
 
-
+@media screen and (min-width:770px) {}
 
 /** MENU **/

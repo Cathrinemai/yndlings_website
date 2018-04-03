@@ -117,6 +117,9 @@ async function runProgram() {
         //skifte farve på det valgte//
         if (color === "null") {
             document.querySelector("#" + selectedID).setAttribute("fill", "#00B9EA");
+        } else {
+            document.querySelector("#" + selectedID).setAttribute("fill", "#00B9EA");
+            infoboks.style.visibility = "hidden";
         }
     }
 };

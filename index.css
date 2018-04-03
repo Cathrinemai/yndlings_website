@@ -115,7 +115,7 @@ h3 {
         right: 0;
     }
 
-<<<<<<< HEAD
+
 
     nav #d {
         width: 0px;
@@ -126,11 +126,11 @@ h3 {
 
 
 
-=======
+
     nav img {
         overflow: hidden;
     }
->>>>>>> origin/master
+
     nav a {
         text-decoration: none;
         color: #052951;
@@ -372,6 +372,8 @@ h3 {
         border-radius: 7px;
         border: none;
         color: #F2F2F2;
+        margin-top: 20px;
+        padding: 7px;
     }
 
     footer button {
@@ -382,21 +384,16 @@ h3 {
 }
 
 @media screen and (min-width:628px) {
-<<<<<<< HEAD
-
-
     nav #d {
         width: 30px;
         height: 30px;
     }
 
 
-=======
     #info_tekst h3 {
         text-align: center;
         font-size: 1.5rem;
     }
->>>>>>> origin/master
     .cykel {
         display: inline-block;
         border: none;
@@ -550,12 +547,10 @@ h3 {
         width: 25px;
         height: 25px;
         position: relative;
-<<<<<<< HEAD
         top: 1vw;
 
-=======
         top: 1.3vw;
->>>>>>> origin/master
+
     }
     nav a {
         text-decoration: none;
@@ -570,10 +565,11 @@ h3 {
         text-align: center;
     }
     nav a:hover {
-        background-color: #00B9EA;
-        border: 2px solid #00B9EA;
-        color: white;
-        opacity: 0.6;
+        /*        background-color: #00B9EA;*/
+        color: #00B9EA;
+        text-decoration: underline;
+        /*        border: 2px solid #00B9EA;*/
+        /*        opacity: 0.1;*/
     }
     #info button {
         background-color: #E10E49;
@@ -643,8 +639,6 @@ h3 {
 }
 
 @media screen and (min-width:770px) {
-<<<<<<< HEAD
-
     nav #d {
         width: 40px;
         height: 40px;
@@ -652,8 +646,6 @@ h3 {
         top: 1.7vw;
     }
 
-=======
->>>>>>> origin/master
     nav img {
         width: 30px;
         height: 30px;

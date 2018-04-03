@@ -44,11 +44,91 @@ h3 {
 }
 
 @media screen and (max-width:500px) {
-    nav img {
-        width: 9px;
-        height: 9px;
+
+    .cykel {
+        display: inline-block;
+
+
+        border: none;
+
+        text-align: center;
+
+        padding: 3px;
+        width: 150px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .cykel span {
+        cursor: pointer;
+        display: inline-block;
         position: relative;
-        top: 1.3vw;
+        transition: 0.5s;
+    }
+
+    .cykel span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    .cykel:hover span {
+        padding-right: 25px;
+    }
+
+    .cykel:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+
+    #mobil {
+        display: inline-block;
+
+
+        border: none;
+
+        text-align: center;
+
+        padding: 3px;
+        width: 150px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    #mobil span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    #mobil span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    #mobil:hover span {
+        padding-right: 25px;
+    }
+
+    #mobil:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    nav img {
+
+        overflow: hidden;
 
     }
     nav a {
@@ -152,16 +232,19 @@ h3 {
         border: none;
         color: #F2F2F2;
     }
-
+    #info {
+        margin-top: 30px;
+    }
 
     #info_tekst {
-
+        margin-top: 30px;
 
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
     #basis {
-        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+        margin-top: 40px;
     }
+
     #cykel img {
         width: 22%;
     }
@@ -251,7 +334,7 @@ h3 {
         grid-gap: 50px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat (1fr 1fr);
-        grid-template-areas: "title title" "explainer explainer";
+        grid-template-areas: "title title";
         margin: 0 auto;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -267,7 +350,12 @@ h3 {
 
     #retshjaelp img {
         width: 16%;
+
     }
+    #retshjaelp {
+        margin: 0 auto;
+    }
+
 
     .menu-container {
         display: grid;
@@ -335,9 +423,6 @@ h3 {
         color: white;
         opacity: 0.6;
     }
-    #basis {
-        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
-    }
     #info button {
         background-color: #E10E49;
         border-radius: 7px;
@@ -347,9 +432,7 @@ h3 {
 
 
 
-    #basis {
-        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
-    }
+
     #cykel img {
         width: 22%;
     }

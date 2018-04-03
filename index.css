@@ -207,12 +207,19 @@ h3 {
         grid-area: face;
     }
 
+    #ansvar img {
+        width: 20%;
+    }
+    #genhusning img {
+        width: 15%;
+    }
+    #retshjaelp img {
+        width: 15%;
+    }
     footer button {
         text-decoration: none;
         border: none;
         width: 15%;
-
-
     }
 
 

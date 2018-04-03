@@ -10,40 +10,27 @@
 
 </head>
 <header>
-    <!--
-    <nav>
-
-        <a href="index.html"><button>
-                Hjem</button></a>
-        <a href=""><button>SoMe</button></a>
-        <a href="https://yndlings.dk/"><button>Yndlings.dk</button></a>
-        <a href=""><button>Distortion.dk</button></a>
-
-    </nav>
--->
-
 
     <nav>
-        <div class="dropdown">
-            <button class="dropbtn">Menu</button>
-            <div class="dropdown-content">
-                <a href="#">Hjem</a>
-                <a href="#">SoMe</a>
-                <a href="#">Yndlings.dk</a>
-                <a href="#">Distortion.dk</a>
-            </div>
-
-        </div>
+        <img src="img/Yndlings_Y.png">
+        <a href="index.html">
+                Hjem</a>
+        <a href="">SoMe</a>
+        <a href="https://yndlings.dk/">Yndlings.dk</a>
+        <a href="">Distortion.dk</a>
+        <img src="img/Yndlings_Y.png">
     </nav>
+
+
+
+
 
 </header>
 
 <body>
 
     <section id="menu-container">
-        <section id="logo">
-            <img src="img/logo1.png" alt="logo">
-        </section>
+
         <section id="explainer">
             <img src="img/explainer.jpg" alt="explainer">
         </section>
@@ -103,5 +90,16 @@
     </footer>
 
 </body>
+
+<script>
+    function toggleMenu() {
+        document.querySelector(".burger").classList.toggle("change");
+        document.querySelector("nav").classList.toggle("show");
+
+
+    }
+    document.querySelector(".burger").addEventListener("click", toggleMenu);
+    document.querySelector("nav").addEventListener("click", toggleMenu);
+</script>
 
 </html>

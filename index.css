@@ -44,7 +44,75 @@ h3 {
     grid-template-areas: "title title" "explainer explainer";
 }
 
+@media screen and (max-width:500px) {
+    nav img {
+        width: 9px;
+        height: 9px;
+        position: relative;
+        top: 1.3vw;
+
+    }
+    nav a {
+        text-decoration: none;
+        color: #052951;
+        text-align: center;
+        font-size: 0.9rem;
+
+
+    }
+    nav {
+
+        background-color: white;
+        height: 40px;
+        cursor: pointer;
+        text-align: center;
+    }
+    nav a:hover {
+        background-color: #00B9EA;
+        border: 2px solid #00B9EA;
+        color: white;
+        opacity: 0.6;
+    }
+
+    #explainer {
+        width: 60px;
+    }
+
+}
+
 @media screen and (max-width:627px) {
+
+
+
+    nav img {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        top: 1.3vw;
+
+    }
+    nav a {
+        text-decoration: none;
+        color: #052951;
+        text-align: center;
+
+
+
+    }
+    nav {
+        word-spacing: 30px;
+        background-color: white;
+        height: 40px;
+        cursor: pointer;
+        text-align: center;
+    }
+    nav a:hover {
+        background-color: #00B9EA;
+        border: 2px solid #00B9EA;
+        color: white;
+        opacity: 0.6;
+    }
+
 
     body {
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
@@ -66,69 +134,11 @@ h3 {
         grid-template-areas: "title title title" "explainer explainer explainer" "info info info" "insta you face";
         margin: 0 auto;
     }
-    .dropbtn {
-        background-color: #E10E49;
-        color: white;
-        padding: 16px;
-        font-size: 16px;
-        border: none;
-        cursor: pointer;
-    }
 
-    /* The container <div> - needed to position the dropdown content */
-    .dropdown {
-        position: relative;
-        display: inline-block;
-        font-family: 'Open Sans', sans-serif;
 
-    }
-
-    /* Dropdown Content (Hidden by Default) */
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #F2F2F2;
-        min-width: 100px;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
-    }
-
-    /* Links inside the dropdown */
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-
-    /* Change color of dropdown links on hover */
-    .dropdown-content a:hover {
-
-        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 200%);
-    }
-
-    /* Show the dropdown menu on hover */
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-
-    /* Change the background color of the dropdown button when the dropdown content is shown */
-    .dropdown:hover .dropbtn {
-        background-color: #E10E49;
-    }
 
 
     /** SLUT MENU **/
-    #logo {
-
-        grid-area: title;
-    }
-
-    #logo img {
-
-        width: 100%;
-    }
-
     #explainer {
         grid-area: explainer;
     }
@@ -226,24 +236,31 @@ h3 {
 }
 
 @media screen and (min-width:628px) {
+    #info {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat (1fr 1fr);
+        grid-template-areas: "title title" "explainer explainer";
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
     .menu-container {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat(auto, 1fr);
-        grid-template-areas: "logo title";
+        grid-gap: 7px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat (4, 1fr);
+        grid-template-areas: "title title title" "explainer explainer explainer" "info info info" "insta you face";
+        margin: 0 auto;
     }
     body {
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
-    #logo {}
 
-    #logo img {
-        width: 20%;
-        grid-area: logo;
-        position: relative;
-        top: -6vw;
 
-    }
+
 
     #explainer {}
 
@@ -262,50 +279,64 @@ h3 {
     header {
 
         text-decoration: none;
+        margin-bottom: 10vw;
     }
 
-    .dropdown a {
-        text-decoration: none;
-        list-style-type: none;
-    }
 
+
+
+    nav img {
+        width: 25px;
+        height: 25px;
+        position: relative;
+        top: 1.3vw;
+
+    }
     nav a {
+        text-decoration: none;
         color: #052951;
-        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+
+
 
     }
     nav {
-        text-align: center;
-        text-decoration: none;
-        word-spacing: 10px;
-    }
-
-
-    nav button {
-        overflow: hidden;
-        text-decoration: none;
-    }
-    .dropbtn {
-        background-color: #D5EDFA;
-        color: white;
-        margin-bottom: 2vw;
-        overflow: hidden;
-        border: none;
+        word-spacing: 52px;
+        background-color: white;
+        height: 45px;
         cursor: pointer;
+        text-align: center;
+    }
+    nav a:hover {
+        background-color: #00B9EA;
+        border: 2px solid #00B9EA;
+        color: white;
+        opacity: 0.6;
     }
     #basis {
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
+    #info button {
+        background-color: #E10E49;
+        border-radius: 7px;
+        border: none;
+        color: #F2F2F2;
+    }
+
+
+
+    #basis {
+        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+    }
     #cykel img {
-        width: 16%;
+        width: 22%;
     }
     #cykel {
         text-align: center;
-
     }
 
     #mobil img {
-        width: 7%;
+        width: 10%;
     }
 
     #mobil {
@@ -313,7 +344,7 @@ h3 {
     }
 
     #tablet img {
-        width: 10%;
+        width: 16%;
     }
 
     #tablet {
@@ -321,7 +352,7 @@ h3 {
     }
 
     #computer img {
-        width: 17%;
+        width: 24%;
     }
 
     #computer {
@@ -360,6 +391,70 @@ h3 {
 
 }
 
+@media screen and (min-width:770px) {
 
+
+
+    nav img {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 1.3vw;
+
+    }
+    nav a {
+        text-decoration: none;
+        color: #052951;
+        text-align: center;
+        font-size: 1.1rem;
+
+    }
+    nav {
+        word-spacing: 70px;
+        background-color: white;
+        height: 50px;
+        cursor: pointer;
+        text-align: center;
+    }
+    nav a:hover {
+        background-color: #00B9EA;
+        border: 2px solid #00B9EA;
+        color: white;
+        opacity: 0.6;
+    }
+}
+
+@media screen and (min-width:1000px) {
+    nav img {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        top: 1vw;
+
+    }
+    nav a {
+        text-decoration: none;
+        color: #052951;
+        text-align: center;
+
+
+
+    }
+    nav {
+        word-spacing: 100px;
+        background-color: white;
+        height: 50px;
+        cursor: pointer;
+        text-align: center;
+    }
+    nav a:hover {
+        background-color: #00B9EA;
+        border: 2px solid #00B9EA;
+        color: white;
+        opacity: 0.6;
+    }
+
+
+}
 
 /** MENU **/

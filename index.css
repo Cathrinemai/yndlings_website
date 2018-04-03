@@ -384,6 +384,12 @@ h3 {
 }
 
 @media screen and (min-width:628px) {
+    #infografik {
+        width: 100%;
+    }
+
+
+
     nav #d {
         width: 30px;
         height: 30px;

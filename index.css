@@ -12,8 +12,6 @@ h3 {
     color: #052951;
 }
 
-
-
 #info_tekst {
     text-align: center;
 }
@@ -47,12 +45,8 @@ h3 {
 
     .cykel {
         display: inline-block;
-
-
         border: none;
-
         text-align: center;
-
         padding: 3px;
         width: 150px;
         transition: all 0.5s;
@@ -87,12 +81,8 @@ h3 {
 
     .basis {
         display: inline-block;
-
-
         border: none;
-
         text-align: center;
-
         padding: 3px;
         width: 200px;
         transition: all 0.5s;
@@ -125,6 +115,7 @@ h3 {
         right: 0;
     }
 
+<<<<<<< HEAD
 
     nav #d {
         width: 0px;
@@ -135,16 +126,18 @@ h3 {
 
 
 
+=======
+    nav img {
+        overflow: hidden;
+    }
+>>>>>>> origin/master
     nav a {
         text-decoration: none;
         color: #052951;
         text-align: center;
         font-size: 0.9rem;
-
-
     }
     nav {
-
         background-color: white;
         height: 40px;
         cursor: pointer;
@@ -160,20 +153,13 @@ h3 {
     #explainer {
         width: 60px;
     }
-
 }
 
 @media screen and (max-width:627px) {
-
-
     .cykel {
         display: inline-block;
-
-
         border: none;
-
         text-align: center;
-
         padding: 3px;
         width: 150px;
         transition: all 0.5s;
@@ -210,12 +196,8 @@ h3 {
 
     .basis {
         display: inline-block;
-
-
         border: none;
-
         text-align: center;
-
         padding: 3px;
         width: 200px;
         transition: all 0.5s;
@@ -253,15 +235,11 @@ h3 {
         height: 22px;
         position: relative;
         top: 1.3vw;
-
     }
     nav a {
         text-decoration: none;
         color: #052951;
         text-align: center;
-
-
-
     }
     nav {
         word-spacing: 30px;
@@ -276,7 +254,6 @@ h3 {
         color: white;
         opacity: 0.6;
     }
-
 
     body {
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
@@ -298,9 +275,6 @@ h3 {
         grid-template-areas: "title title title" "explainer explainer explainer" "info info info" "insta you face";
         margin: 0 auto;
     }
-
-
-
 
     /** SLUT MENU **/
     #explainer {
@@ -398,7 +372,6 @@ h3 {
         border-radius: 7px;
         border: none;
         color: #F2F2F2;
-
     }
 
     footer button {
@@ -406,11 +379,10 @@ h3 {
         border: none;
         width: 15%;
     }
-
-
 }
 
 @media screen and (min-width:628px) {
+<<<<<<< HEAD
 
 
     nav #d {
@@ -419,14 +391,16 @@ h3 {
     }
 
 
+=======
+    #info_tekst h3 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+>>>>>>> origin/master
     .cykel {
         display: inline-block;
-
-
         border: none;
-
         text-align: center;
-
         padding: 3px;
         width: 150px;
         transition: all 0.5s;
@@ -462,12 +436,8 @@ h3 {
 
     .basis {
         display: inline-block;
-
-
         border: none;
-
         text-align: center;
-
         padding: 3px;
         width: 200px;
         transition: all 0.5s;
@@ -500,7 +470,6 @@ h3 {
         right: 0;
     }
 
-
     #info {
         display: grid;
         grid-gap: 50px;
@@ -521,7 +490,6 @@ h3 {
         margin: 0 auto;
         margin-top: 50px;
         margin-bottom: 50px;
-
     }
     .basis-button button {
         background-color: #E10E49;
@@ -545,12 +513,10 @@ h3 {
 
     #retshjaelp img {
         width: 16%;
-
     }
     #retshjaelp {
         margin: 0 auto;
     }
-
 
     .menu-container {
         display: grid;
@@ -563,10 +529,6 @@ h3 {
     body {
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
-
-
-
-
     #explainer {}
 
     #explainer img {
@@ -575,35 +537,30 @@ h3 {
 
     }
     #info_tekst {
-
-
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
 
 
     header {
-
         text-decoration: none;
         margin-bottom: 10vw;
     }
-
-
-
 
     nav img {
         width: 25px;
         height: 25px;
         position: relative;
+<<<<<<< HEAD
         top: 1vw;
 
+=======
+        top: 1.3vw;
+>>>>>>> origin/master
     }
     nav a {
         text-decoration: none;
         color: #052951;
         text-align: center;
-
-
-
     }
     nav {
         word-spacing: 52px;
@@ -624,9 +581,6 @@ h3 {
         border: none;
         color: #F2F2F2;
     }
-
-
-
 
     #cykel img {
         width: 22%;
@@ -659,7 +613,6 @@ h3 {
         text-align: center;
     }
 
-
     /** FOOTER **/
     footer {
         text-align: center;
@@ -685,13 +638,12 @@ h3 {
         text-decoration: none;
         border: none;
         width: 15%;
-
-
     }
 
 }
 
 @media screen and (min-width:770px) {
+<<<<<<< HEAD
 
     nav #d {
         width: 40px;
@@ -700,6 +652,8 @@ h3 {
         top: 1.7vw;
     }
 
+=======
+>>>>>>> origin/master
     nav img {
         width: 30px;
         height: 30px;
@@ -743,12 +697,8 @@ h3 {
 @media screen and (min-width:1000px) {
     .cykel {
         display: inline-block;
-
-
         border: none;
-
         text-align: center;
-
         padding: 3px;
         width: 150px;
         transition: all 0.5s;
@@ -783,12 +733,8 @@ h3 {
 
     .basis {
         display: inline-block;
-
-
         border: none;
-
         text-align: center;
-
         padding: 3px;
         width: 200px;
         transition: all 0.5s;
@@ -840,9 +786,6 @@ h3 {
         text-decoration: none;
         color: #052951;
         text-align: center;
-
-
-
     }
     nav {
         word-spacing: 100px;
@@ -856,8 +799,6 @@ h3 {
         color: white;
         opacity: 0.6;
     }
-
-
 }
 
 /** MENU **/

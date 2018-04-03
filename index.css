@@ -254,6 +254,29 @@ h3 {
         margin-bottom: 50px;
     }
 
+    #basis {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat (1fr 1fr);
+        grid-template-areas: "title title" "explainer explainer";
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+
+    }
+    #ansvar img {
+        width: 20%;
+    }
+
+    #genhusning img {
+        width: 15%;
+    }
+
+    #retshjaelp img {
+        width: 16%;
+    }
+
     .menu-container {
         display: grid;
         grid-gap: 7px;

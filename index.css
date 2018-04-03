@@ -30,7 +30,7 @@ h3 {
 }
 
 #basis span {
-    color: #E10E49;
+    color: #F2F2F2;
 }
 
 .menu-container {
@@ -115,9 +115,22 @@ h3 {
         right: 0;
     }
 
+
+
+    nav #d {
+        width: 0px;
+        position: relative;
+        left: -75vw;
+
+    }
+
+
+
+
     nav img {
         overflow: hidden;
     }
+
     nav a {
         text-decoration: none;
         color: #052951;
@@ -172,11 +185,13 @@ h3 {
 
     .cykel:hover span {
         padding-right: 25px;
+
     }
 
     .cykel:hover span:after {
         opacity: 1;
         right: 0;
+
     }
 
     .basis {
@@ -357,6 +372,8 @@ h3 {
         border-radius: 7px;
         border: none;
         color: #F2F2F2;
+        margin-top: 20px;
+        padding: 7px;
     }
 
     footer button {
@@ -367,6 +384,12 @@ h3 {
 }
 
 @media screen and (min-width:628px) {
+    nav #d {
+        width: 30px;
+        height: 30px;
+    }
+
+
     #info_tekst h3 {
         text-align: center;
         font-size: 1.5rem;
@@ -406,13 +429,8 @@ h3 {
         opacity: 1;
         right: 0;
     }
-    .basis-button button {
-        background-color: #E10E49;
-        border-radius: 7px;
-        border: none;
-        color: #F2F2F2;
 
-    }
+
     .basis {
         display: inline-block;
         border: none;
@@ -470,6 +488,18 @@ h3 {
         margin-top: 50px;
         margin-bottom: 50px;
     }
+    .basis-button button {
+        background-color: #E10E49;
+        border-radius: 15px;
+        border: none;
+        color: #F2F2F2;
+        position: relative;
+
+        top: 8vw;
+        padding: 15px;
+        font-size: 15px;
+    }
+
     #ansvar img {
         width: 20%;
     }
@@ -517,7 +547,10 @@ h3 {
         width: 25px;
         height: 25px;
         position: relative;
+        top: 1vw;
+
         top: 1.3vw;
+
     }
     nav a {
         text-decoration: none;
@@ -532,10 +565,11 @@ h3 {
         text-align: center;
     }
     nav a:hover {
-        background-color: #00B9EA;
-        border: 2px solid #00B9EA;
-        color: white;
-        opacity: 0.6;
+        /*        background-color: #00B9EA;*/
+        color: #00B9EA;
+        text-decoration: underline;
+        /*        border: 2px solid #00B9EA;*/
+        /*        opacity: 0.1;*/
     }
     #info button {
         background-color: #E10E49;
@@ -605,11 +639,18 @@ h3 {
 }
 
 @media screen and (min-width:770px) {
+    nav #d {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 1.7vw;
+    }
+
     nav img {
         width: 30px;
         height: 30px;
         position: relative;
-        top: 1.3vw;
+
 
     }
     nav a {
@@ -622,7 +663,7 @@ h3 {
     nav {
         word-spacing: 70px;
         background-color: white;
-        height: 50px;
+        height: 65px;
         cursor: pointer;
         text-align: center;
     }
@@ -631,6 +672,17 @@ h3 {
         border: 2px solid #00B9EA;
         color: white;
         opacity: 0.6;
+    }
+    .basis-button button {
+        background-color: #E10E49;
+        border-radius: 20px;
+        border: none;
+        color: #F2F2F2;
+        position: relative;
+
+        top: 8vw;
+        padding: 20px;
+        font-size: 15px;
     }
 }
 
@@ -707,11 +759,19 @@ h3 {
         right: 0;
     }
 
+    nav #d {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        top: 1vw;
+
+    }
     nav img {
         width: 30px;
         height: 30px;
         position: relative;
-        top: 1vw;
+        top: 0.7vw;
+
 
     }
     nav a {
@@ -721,8 +781,7 @@ h3 {
     }
     nav {
         word-spacing: 100px;
-        background-color: white;
-        height: 50px;
+        height: 65px;
         cursor: pointer;
         text-align: center;
     }

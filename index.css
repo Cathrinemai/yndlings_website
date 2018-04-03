@@ -308,6 +308,14 @@ h3 {
     #retshjaelp img {
         width: 15%;
     }
+    .basis-button button {
+        background-color: #E10E49;
+        border-radius: 7px;
+        border: none;
+        color: #F2F2F2;
+
+    }
+
     footer button {
         text-decoration: none;
         border: none;

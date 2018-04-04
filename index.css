@@ -185,6 +185,53 @@ h3 {
         opacity: 1;
         right: 0;
     }
+    .dist {
+        display: inline-block;
+        border: none;
+        text-align: center;
+        padding: 3px;
+        width: 150px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .dist span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .dist span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    .dist:hover span {
+        padding-right: 25px;
+    }
+
+    .dist:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    #distortion button {
+        background-color: #E10E49;
+        border-radius: 7px;
+        border: none;
+        color: #F2F2F2;
+        margin-top: 9px;
+        padding: 6px;
+
+    }
+    #distortion span {
+        color: #F2F2F2;
+    }
 
     #explainer {
         width: 60px;
@@ -195,7 +242,7 @@ h3 {
         display: none;
         position: absolute;
         font-family: 'Open Sans', sans-serif;
-        background: linear-gradient(to bottom, rgba(242, 242, 242, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+        /*        background: linear-gradient(to bottom, rgba(242, 242, 242, 500)100%, rgba(0, 0, 0, 0) 10%);*/
         min-width: 100px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
         z-index: 9999;
@@ -244,7 +291,8 @@ h3 {
         position: absolute;
         font-family: 'Open Sans',
         sans-serif;
-        background: linear-gradient(to bottom, rgba(242, 242, 242, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+        /*        background: linear-gradient(to bottom, rgba(242, 242, 242, 200)0%, rgba(0, 0, 0, 0) 100%);*/
+        background: #F2F2F2;
         min-width: 120px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
         z-index: 9999;
@@ -290,6 +338,7 @@ h3 {
         text-decoration: none;
         color: #052951;
         text-align: center;
+
     }
     nav {
         word-spacing: 10px;
@@ -297,6 +346,7 @@ h3 {
         height: 40px;
         cursor: pointer;
         text-align: center;
+
     }
 
     /** NAV SLUT **/
@@ -357,6 +407,55 @@ h3 {
 
     }
 
+    .dist {
+        display: inline-block;
+        border: none;
+        text-align: center;
+        padding: 3px;
+        width: 150px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .dist span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .dist span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    .dist:hover span {
+        padding-right: 25px;
+    }
+
+    .dist:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+    #distortion button {
+        background-color: #E10E49;
+        border-radius: 7px;
+        border: none;
+        color: #F2F2F2;
+        margin-top: 9px;
+        padding: 6px;
+
+    }
+
+    #distortion span {
+        color: #F2F2F2;
+    }
 
     .basis {
         display: inline-block;
@@ -561,7 +660,8 @@ h3 {
         display: none;
         position: absolute;
         font-family: 'Open Sans', sans-serif;
-        background: linear-gradient(to bottom, rgba(242, 242, 242, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+        /*        background: linear-gradient(to bottom, rgba(242, 242, 242, 0.65)0%, rgba(0, 0, 0, 0) 100%);*/
+        background: #F2F2F2;
         min-width: 100px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
         z-index: 9999;
@@ -604,6 +704,7 @@ h3 {
     nav #d {
         width: 30px;
         height: 30px;
+
     }
     /** NAV SLUT **/
     #info_tekst h3 {
@@ -682,13 +783,16 @@ h3 {
         right: 0;
     }
     #distortion button {
-        background-color: black;
+        background-color: #E10E49;
         border-radius: 7px;
         border: none;
         color: #F2F2F2;
         margin-top: 9px;
         padding: 6px;
 
+    }
+    #distortion span {
+        color: #F2F2F2;
     }
 
     .basis {
@@ -792,10 +896,13 @@ h3 {
         top: 1.3vw;
 
     }
+
+
     nav a {
         text-decoration: none;
         color: #052951;
         text-align: center;
+        font-size: 1rem;
     }
     nav {
         word-spacing: 30px;
@@ -803,6 +910,7 @@ h3 {
         height: 45px;
         cursor: pointer;
         text-align: center;
+
     }
     nav a:hover {
         /*        background-color: #00B9EA;*/

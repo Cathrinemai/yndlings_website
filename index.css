@@ -42,6 +42,21 @@ h3 {
     text-align: center;
 }
 
+#info_distortion {
+    text-align: center;
+
+}
+
+#info_distortion span {
+    color: #E10E49;
+}
+
+
+
+#info_distortion h3 {
+    text-align: center;
+}
+
 #basis {
     margin-top: 20px;
     text-align: center;
@@ -60,7 +75,11 @@ h3 {
 }
 
 @media screen and (max-width:500px) {
+    #map {
 
+        overflow: hidden;
+
+    }
 
 
     /** NAV **/
@@ -170,11 +189,28 @@ h3 {
     #explainer {
         width: 60px;
     }
+
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        font-family: 'Open Sans', sans-serif;
+        background: linear-gradient(to bottom, rgba(242, 242, 242, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
+        z-index: 9999;
+    }
     /** INFO SLUT **/
 }
 
 @media screen and (max-width:627px) {
 
+
+
+    #map {
+        margin-top: 20px;
+
+    }
     body {
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
@@ -206,7 +242,8 @@ h3 {
     .dropdown-content {
         display: none;
         position: absolute;
-
+        font-family: 'Open Sans',
+        sans-serif;
         background: linear-gradient(to bottom, rgba(242, 242, 242, 0.65)0%, rgba(0, 0, 0, 0) 100%);
         min-width: 120px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
@@ -451,7 +488,7 @@ h3 {
     /** FOOTER **/
     footer {
         text-align: center;
-        margin-top: 100px;
+
 
     }
     footer img {
@@ -461,12 +498,19 @@ h3 {
     footer button {
         text-decoration: none;
         border: none;
-        width: 15%;
+
+
+        cursor: pointer;
     }
+
     /** FOOTER SLUT **/
 }
 
 @media screen and (min-width:628px) {
+
+    footer button {
+        cursor: pointer;
+    }
 
     body {
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
@@ -516,7 +560,7 @@ h3 {
     .dropdown-content {
         display: none;
         position: absolute;
-
+        font-family: 'Open Sans', sans-serif;
         background: linear-gradient(to bottom, rgba(242, 242, 242, 0.65)0%, rgba(0, 0, 0, 0) 100%);
         min-width: 100px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
@@ -524,6 +568,7 @@ h3 {
     }
 
     .dropdown-content a {
+        font-family: 'Open Sans', sans-serif;
         color: black;
         padding: 12px;
         text-decoration: none;
@@ -535,6 +580,7 @@ h3 {
         color: #E10E49;
         text-decoration: underline;
         z-index: 999;
+        font-family: 'Open Sans', sans-serif;
     }
     .dropdown:hover .dropdown-content {
         display: block;
@@ -551,9 +597,7 @@ h3 {
     }
 
 
-    #map {
-        width: 100%;
-    }
+
 
 
 
@@ -602,6 +646,50 @@ h3 {
         right: 0;
     }
 
+    .dist {
+        display: inline-block;
+        border: none;
+        text-align: center;
+        padding: 3px;
+        width: 150px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .dist span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+    }
+
+    .dist span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+    }
+
+    .dist:hover span {
+        padding-right: 25px;
+    }
+
+    .dist:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+    #distortion button {
+        background-color: black;
+        border-radius: 7px;
+        border: none;
+        color: #F2F2F2;
+        margin-top: 9px;
+        padding: 6px;
+
+    }
 
     .basis {
         display: inline-block;
@@ -685,6 +773,9 @@ h3 {
     #info_tekst {
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
+    #info_distortion {
+        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+    }
 
 
     header {
@@ -761,14 +852,21 @@ h3 {
     /** FOOTER **/
     footer {
         text-align: center;
-        margin-top: 100px;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+
+    footer a {
+        cursor: pointer;
     }
     footer img {
         width: 50%;
+        cursor: pointer;
     }
 
     #insta {
         grid-area: insta;
+        cursor: pointer;
     }
 
     #youtube {
@@ -783,6 +881,7 @@ h3 {
         text-decoration: none;
         border: none;
         width: 15%;
+        cursor: pointer;
     }
 
 }

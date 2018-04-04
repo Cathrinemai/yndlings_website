@@ -61,6 +61,40 @@ h3 {
 
 @media screen and (max-width:500px) {
 
+
+
+    /** NAV **/
+    nav #d {
+        width: 0px;
+        position: relative;
+        left: -75vw;
+
+    }
+
+    nav img {
+        overflow: hidden;
+    }
+
+    nav a {
+        text-decoration: none;
+        color: #052951;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+    nav {
+        background-color: white;
+        height: 40px;
+        cursor: pointer;
+        text-align: center;
+    }
+    nav a:hover {
+        background-color: #00B9EA;
+        border: 2px solid #00B9EA;
+        color: white;
+        opacity: 0.6;
+    }
+    /** NAV SLUT **/
+    /** INFO **/
     .cykel {
         display: inline-block;
         border: none;
@@ -133,51 +167,27 @@ h3 {
         right: 0;
     }
 
-
-
-    nav #d {
-        width: 0px;
-        position: relative;
-        left: -75vw;
-
-    }
-
-
-
-
-    nav img {
-        overflow: hidden;
-    }
-
-    nav a {
-        text-decoration: none;
-        color: #052951;
-        text-align: center;
-        font-size: 0.9rem;
-    }
-    nav {
-        background-color: white;
-        height: 40px;
-        cursor: pointer;
-        text-align: center;
-    }
-    nav a:hover {
-        background-color: #00B9EA;
-        border: 2px solid #00B9EA;
-        color: white;
-        opacity: 0.6;
-    }
-
     #explainer {
         width: 60px;
     }
+    /** INFO SLUT **/
 }
 
 @media screen and (max-width:627px) {
+
+    body {
+        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+    }
+
+
+
+
+    /** NAV **/
     nav button {
         text-decoration: none;
         border: none;
         font-family: 'Open Sans', sans-serif;
+        font-size: 1rem;
     }
 
     .dropdown {
@@ -187,7 +197,7 @@ h3 {
     .dropbtn {
         font-family: 'Open Sans',
         sans-serif;
-        font-size: 0.8rem;
+
         border: none;
 
 
@@ -214,7 +224,7 @@ h3 {
     .dropdown-content a:hover {
         color: #E10E49;
         text-decoration: underline;
-        z-index: 999;
+
     }
     .dropdown:hover .dropdown-content {
         display: block;
@@ -226,12 +236,50 @@ h3 {
     .dropdown:hover .dropbtn {
         color: #00B9EA;
         text-decoration: underline;
-        z-index: 999;
+
 
     }
-    nav button:hover {
+    nav a:hover {
         color: #00B9EA;
         text-decoration: underline;
+    }
+    nav img {
+        width: 22px;
+        height: 22px;
+        position: relative;
+        top: 1.3vw;
+    }
+    nav a {
+        text-decoration: none;
+        color: #052951;
+        text-align: center;
+    }
+    nav {
+        word-spacing: 10px;
+        background-color: white;
+        height: 40px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    /** NAV SLUT **/
+    /** INFO **/
+    #info {
+        display: grid;
+        grid-gap: 22px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat (1fr 1fr);
+        grid-template-areas: "title title" "explainer explainer";
+        margin: 0 auto;
+    }
+
+    .menu-container {
+        display: grid;
+        grid-gap: 7px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: repeat (4, 1fr);
+        grid-template-areas: "title title title" "explainer explainer explainer" "info info info" "insta you face";
+        margin: 0 auto;
     }
 
     .cykel {
@@ -272,6 +320,7 @@ h3 {
 
     }
 
+
     .basis {
         display: inline-block;
         border: none;
@@ -308,48 +357,6 @@ h3 {
         right: 0;
     }
 
-    nav img {
-        width: 22px;
-        height: 22px;
-        position: relative;
-        top: 1.3vw;
-    }
-    nav a {
-        text-decoration: none;
-        color: #052951;
-        text-align: center;
-    }
-    nav {
-        word-spacing: 10px;
-        background-color: white;
-        height: 40px;
-        cursor: pointer;
-        text-align: center;
-    }
-
-
-    body {
-        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
-    }
-    #info {
-        display: grid;
-        grid-gap: 22px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat (1fr 1fr);
-        grid-template-areas: "title title" "explainer explainer";
-        margin: 0 auto;
-    }
-
-    .menu-container {
-        display: grid;
-        grid-gap: 7px;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat (4, 1fr);
-        grid-template-areas: "title title title" "explainer explainer explainer" "info info info" "insta you face";
-        margin: 0 auto;
-    }
-
-    /** SLUT MENU **/
     #explainer {
         grid-area: explainer;
     }
@@ -377,6 +384,17 @@ h3 {
         margin-top: 40px;
     }
 
+
+    /** INFO SLUT **/
+    /** TING **/
+    .basis-button button {
+        background-color: #E10E49;
+        border-radius: 7px;
+        border: none;
+        color: #F2F2F2;
+        margin-top: 20px;
+        padding: 7px;
+    }
     #cykel img {
         width: 22%;
     }
@@ -407,18 +425,6 @@ h3 {
     #computer {
         text-align: center;
     }
-
-    /** FOOTER **/
-    footer {
-        text-align: center;
-        margin-top: 100px;
-
-    }
-    footer img {
-        width: 50px;
-
-    }
-
     #insta {
         grid-area: insta;
     }
@@ -440,24 +446,55 @@ h3 {
     #retshjaelp img {
         width: 15%;
     }
-    .basis-button button {
-        background-color: #E10E49;
-        border-radius: 7px;
-        border: none;
-        color: #F2F2F2;
-        margin-top: 20px;
-        padding: 7px;
-    }
 
+    /** TING SLUT **/
+    /** FOOTER **/
+    footer {
+        text-align: center;
+        margin-top: 100px;
+
+    }
+    footer img {
+        width: 50px;
+
+    }
     footer button {
         text-decoration: none;
         border: none;
         width: 15%;
     }
+    /** FOOTER SLUT **/
 }
 
 @media screen and (min-width:628px) {
-    #infografik {}
+
+    body {
+        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+    }
+
+
+    #info {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat (1fr 1fr);
+        grid-template-areas: "title title" "explainer explainer";
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #basis {
+        display: grid;
+        grid-gap: 50px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat (1fr 1fr);
+        grid-template-areas: "title title";
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    /** NAV **/
     nav button {
         text-decoration: none;
         border: none;
@@ -524,8 +561,7 @@ h3 {
         width: 30px;
         height: 30px;
     }
-
-
+    /** NAV SLUT **/
     #info_tekst h3 {
         text-align: center;
         font-size: 1.5rem;
@@ -603,27 +639,6 @@ h3 {
         right: 0;
     }
 
-    #info {
-        display: grid;
-        grid-gap: 50px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat (1fr 1fr);
-        grid-template-areas: "title title" "explainer explainer";
-        margin: 0 auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    #basis {
-        display: grid;
-        grid-gap: 50px;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat (1fr 1fr);
-        grid-template-areas: "title title";
-        margin: 0 auto;
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
     .basis-button button {
         background-color: #E10E49;
         border-radius: 15px;
@@ -659,9 +674,7 @@ h3 {
         grid-template-areas: "title title title" "explainer explainer explainer" "info info info" "insta you face";
         margin: 0 auto;
     }
-    body {
-        background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
-    }
+
     #explainer {}
 
     #explainer img {
@@ -694,7 +707,7 @@ h3 {
         text-align: center;
     }
     nav {
-        word-spacing: 52px;
+        word-spacing: 30px;
         background-color: white;
         height: 45px;
         cursor: pointer;
@@ -793,22 +806,21 @@ h3 {
         text-decoration: none;
         color: #052951;
         text-align: center;
-        font-size: 1.1rem;
+        font-size: 1rem;
 
     }
+
+    nav button {
+        font-size: 1rem;
+    }
     nav {
-        word-spacing: 70px;
+        word-spacing: 60px;
         background-color: white;
         height: 65px;
         cursor: pointer;
         text-align: center;
     }
-    nav a:hover {
-        background-color: #00B9EA;
-        border: 2px solid #00B9EA;
-        color: white;
-        opacity: 0.6;
-    }
+
     .basis-button button {
         background-color: #E10E49;
         border-radius: 20px;
@@ -910,10 +922,15 @@ h3 {
 
 
     }
-    nav a {
+    nav button {
         text-decoration: none;
         color: #052951;
         text-align: center;
+
+        font-size: 1.1rem
+    }
+    nav a {
+        font-size: 1.1rem
     }
     nav {
         word-spacing: 100px;
@@ -921,12 +938,7 @@ h3 {
         cursor: pointer;
         text-align: center;
     }
-    nav a:hover {
-        background-color: #00B9EA;
-        border: 2px solid #00B9EA;
-        color: white;
-        opacity: 0.6;
-    }
+    nav a:hover {}
 }
 
 /** MENU **/

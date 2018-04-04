@@ -16,6 +16,12 @@ video {
 
 /** VIDEO SLUT **/
 
+#info_distortion {
+    margin-top: 30px;
+
+    background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+}
+
 nav .menu a {
     font-family: 'Open Sans', sans-serif;
 }
@@ -516,6 +522,7 @@ h3 {
 
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
+
     #basis {
         margin-top: 40px;
     }

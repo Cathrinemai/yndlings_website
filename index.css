@@ -12,14 +12,20 @@ video {
     padding-bottom: 56.25%;
     /* 16:9 Aspect Ratio */
     padding-top: 25px;
+    margin-bottom: 30px;
+
 }
+
+/** VIDEO **/
 
 #video {
     z-index: 9999;
 }
 
+
 #explain {
     text-align: center;
+    background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
 }
 
 /** VIDEO SLUT **/
@@ -57,6 +63,16 @@ h3 {
     color: #E10E49;
 }
 
+#kampagne span {
+    color: #E10E49;
+
+}
+
+#kampagne {
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
+}
+
 #info_tekst h3 {
     text-align: center;
 }
@@ -85,6 +101,7 @@ h3 {
     color: #F2F2F2;
 }
 
+/*
 .menu-container {
     display: grid;
     grid-gap: 7px;
@@ -92,6 +109,7 @@ h3 {
     grid-template-rows: repeat (1fr 1fr);
     grid-template-areas: "title title" "explainer explainer";
 }
+*/
 
 @media screen and (max-width:500px) {
 
@@ -380,7 +398,7 @@ h3 {
         display: grid;
         grid-gap: 22px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat (1fr 1fr);
+        grid-template-rows: repeat (1fr);
         grid-template-areas: "title title" "explainer explainer";
         margin: 0 auto;
     }
@@ -646,7 +664,7 @@ h3 {
         display: grid;
         grid-gap: 50px;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: repeat (1fr 1fr);
+        grid-template-rows: repeat (1fr);
         grid-template-areas: "title title" "explainer explainer";
         margin: 0 auto;
         margin-top: 50px;
@@ -888,7 +906,7 @@ h3 {
         display: grid;
         grid-gap: 7px;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: repeat (4, 1fr);
+        grid-template-rows: repeat (1fr);
         grid-template-areas: "title title title" "explainer explainer explainer" "info info info" "insta you face";
         margin: 0 auto;
     }

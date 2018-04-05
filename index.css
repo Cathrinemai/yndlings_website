@@ -16,6 +16,22 @@ video {
 
 }
 
+.responsive-embed iframe,
+video {
+    position: absolute;
+    width: 100%!important;
+    height: 100%!important;
+}
+
+.responsive-embed {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
+    padding-top: 25px;
+    margin-bottom: 30px;
+
+}
+
 /** VIDEO **/
 
 #video {
@@ -125,6 +141,7 @@ h3 {
 
     nav img {
         overflow: hidden;
+        cursor: pointer;
     }
 
     nav a button {
@@ -132,6 +149,7 @@ h3 {
         color: #052951;
         text-align: center;
         font-size: 0.9rem;
+        cursor: pointer;
     }
 
 
@@ -370,6 +388,7 @@ h3 {
     nav button:hover {
         color: #00B9EA;
         text-decoration: underline;
+        cursor: pointer;
     }
     nav img {
         width: 22px;
@@ -381,6 +400,7 @@ h3 {
         text-decoration: none;
         color: #052951;
         text-align: center;
+        cursor: pointer;
 
     }
     nav {
@@ -942,11 +962,12 @@ h3 {
     }
 
 
-    nav a {
+    nav a button {
         text-decoration: none;
         color: #052951;
         text-align: center;
         font-size: 1rem;
+        cursor: pointer;
     }
     nav {
         word-spacing: 30px;

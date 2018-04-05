@@ -14,6 +14,14 @@ video {
     padding-top: 25px;
 }
 
+#video {
+    margin-top: -35px;
+}
+
+#explain {
+    text-align: center;
+}
+
 /** VIDEO SLUT **/
 
 #info_distortion {
@@ -21,6 +29,7 @@ video {
 
     background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
 }
+
 
 nav .menu a {
     font-family: 'Open Sans', sans-serif;
@@ -41,6 +50,10 @@ h3 {
 }
 
 #info_tekst span {
+    color: #E10E49;
+}
+
+#explain span {
     color: #E10E49;
 }
 

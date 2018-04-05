@@ -1083,17 +1083,16 @@ h3 {
 }
 
 @media screen and (min-width:1000px) {
-<<<<<<< HEAD
+
+    .responsive-embed {
+        margin-bottom: 65px;
+    }
+    #distortion button {}
     .responsive-embed {
         margin-bottom: 65px;
     }
     #distortion button {
-=======
-    <<<<<<< HEAD .responsive-embed {
-        margin-bottom: 65px;
-    }
-    =======#distortion button {
->>>>>>> origin/master
+
         background-color: #E10E49;
         border-radius: 7px;
         border: none;
@@ -1113,11 +1112,11 @@ h3 {
         margin: 5px;
     }
 
-<<<<<<< HEAD
+
+    .cykel {}
+
     .cykel {
-=======
-    > > > > > > > origin/master .cykel {
->>>>>>> origin/master
+
         display: inline-block;
         border: none;
         text-align: center;

@@ -749,6 +749,10 @@ h3 {
 
     }
     /** NAV SLUT **/
+    #info_distortion h3 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
     #info_tekst h3 {
         text-align: center;
         font-size: 1.5rem;
@@ -1082,18 +1086,43 @@ h3 {
 }
 
 @media screen and (min-width:1000px) {
+<<<<<<< HEAD
     .responsive-embed {
         margin-bottom: 65px;
     }
+=======
+
+    #distortion button {
+        background-color: #E10E49;
+        border-radius: 7px;
+        border: none;
+        color: #F2F2F2;
+        margin-top: 9px;
+        padding: 15px;
+
+    }
+    .dist {
+        display: inline-block;
+        border: none;
+        text-align: center;
+        padding: 3px;
+        width: 160px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+>>>>>>> origin/master
     .cykel {
         display: inline-block;
         border: none;
         text-align: center;
         padding: 3px;
-        width: 150px;
+        width: 160px;
         transition: all 0.5s;
         cursor: pointer;
         margin: 5px;
+        padding: 10px;
     }
 
     .cykel span {

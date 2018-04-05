@@ -1218,7 +1218,10 @@ h3 {
         cursor: pointer;
         text-align: center;
     }
-    nav a:hover {}
+    body {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
 }
 
 /** MENU **/

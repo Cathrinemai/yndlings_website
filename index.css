@@ -41,7 +41,6 @@ video {
 
 #explain {
     text-align: center;
-    background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
 }
 
 /** VIDEO SLUT **/
@@ -86,7 +85,6 @@ h3 {
 
 #kampagne {
     text-align: center;
-    background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
 }
 
 #info_tekst h3 {
@@ -306,7 +304,9 @@ h3 {
         margin-top: 30px;
         cursor: pointer;
     }
-
+    .responsive-embed {
+        margin-bottom: 45px;
+    }
     footer a {
         cursor: pointer;
     }
@@ -323,9 +323,6 @@ h3 {
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
 
-
-
-
     /** NAV **/
     nav button {
         text-decoration: none;
@@ -341,10 +338,7 @@ h3 {
     .dropbtn {
         font-family: 'Open Sans',
         sans-serif;
-
         border: none;
-
-
     }
 
     .dropdown-content {
@@ -352,7 +346,6 @@ h3 {
         position: absolute;
         font-family: 'Open Sans',
         sans-serif;
-        /*        background: linear-gradient(to bottom, rgba(242, 242, 242, 200)0%, rgba(0, 0, 0, 0) 100%);*/
         background: #F2F2F2;
         min-width: 120px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.1);
@@ -361,10 +354,8 @@ h3 {
 
     .dropdown-content a {
         color: black;
-
         text-decoration: none;
         display: block;
-
     }
 
     .dropdown-content a:hover {
@@ -375,8 +366,6 @@ h3 {
     .dropdown:hover .dropdown-content {
         display: block;
         z-index: 999;
-
-
     }
 
     .dropdown:hover .dropbtn {
@@ -576,7 +565,6 @@ h3 {
 
     #info_tekst {
         margin-top: 30px;
-
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
 
@@ -651,8 +639,6 @@ h3 {
     /** FOOTER **/
     footer {
         text-align: center;
-
-
     }
     footer img {
         width: 50px;
@@ -661,8 +647,6 @@ h3 {
     footer button {
         text-decoration: none;
         border: none;
-
-
         cursor: pointer;
     }
 
@@ -684,10 +668,12 @@ h3 {
         display: grid;
         grid-gap: 50px;
         grid-template-columns: 1fr 1fr;
-
         grid-template-areas: "title title" "explainer explainer";
         margin: 0 auto;
         margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .responsive-embed {
         margin-bottom: 50px;
     }
 
@@ -714,10 +700,7 @@ h3 {
     }
     .dropbtn {
         font-family: 'Open Sans', sans-serif;
-
         border: none;
-
-
     }
 
     .dropdown-content {
@@ -759,11 +742,6 @@ h3 {
         z-index: 999;
 
     }
-
-
-
-
-
 
     nav #d {
         width: 30px;
@@ -945,22 +923,13 @@ h3 {
         background: linear-gradient(to bottom, rgba(213, 237, 250, 0.65)0%, rgba(0, 0, 0, 0) 100%);
     }
 
-
-    header {
-        text-decoration: none;
-        margin-bottom: 10vw;
-    }
-
     nav img {
         width: 25px;
         height: 25px;
         position: relative;
         top: 1vw;
-
         top: 1.3vw;
-
     }
-
 
     nav a button {
         text-decoration: none;
@@ -1061,7 +1030,9 @@ h3 {
 
 @media screen and (min-width:770px) {
 
-
+    .responsive-embed {
+        margin-bottom: 65px;
+    }
 
 
     nav #d {
@@ -1111,6 +1082,9 @@ h3 {
 }
 
 @media screen and (min-width:1000px) {
+    .responsive-embed {
+        margin-bottom: 65px;
+    }
     .cykel {
         display: inline-block;
         border: none;
@@ -1195,8 +1169,6 @@ h3 {
         height: 30px;
         position: relative;
         top: 0.7vw;
-
-
     }
     nav button {
         text-decoration: none;

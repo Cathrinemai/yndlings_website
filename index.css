@@ -127,7 +127,7 @@ h3 {
         overflow: hidden;
     }
 
-    nav a {
+    nav a button {
         text-decoration: none;
         color: #052951;
         text-align: center;
@@ -367,7 +367,7 @@ h3 {
 
 
     }
-    nav a:hover {
+    nav button:hover {
         color: #00B9EA;
         text-decoration: underline;
     }
@@ -956,7 +956,7 @@ h3 {
         text-align: center;
 
     }
-    nav a:hover {
+    nav button:hover {
         /*        background-color: #00B9EA;*/
         color: #00B9EA;
         text-decoration: underline;
